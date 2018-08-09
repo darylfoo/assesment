@@ -65,7 +65,7 @@ app.post('/meme/create', function(req,res, next){
 	create.create_meme(req, res);
 });
 
-// app.get('/',function(req,res){
-// 	res.sendFile(__dirname +'/index.html');
-// });
+app.get('/',function(req,res){
+	res.sendFile(__dirname +'/index.html');
+});
 //API
