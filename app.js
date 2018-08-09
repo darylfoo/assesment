@@ -17,7 +17,7 @@ exports = module.exports = router;
 //Set Route
 
 //Server Setup
-var port = 8080;
+var port = 1337;
 var server = http.createServer(app);
 
 app.use(bodyParser.json());
