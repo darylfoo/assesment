@@ -85,7 +85,7 @@ function create_meme(req,res){
 				"data":{
 
 					"message" : "New image data inserted",
-					"New image data": context.new_img
+					"new_data": context.new_img
 
 				}
 
