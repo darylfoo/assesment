@@ -1,0 +1,12 @@
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io('http://192.168.0.102:8080');
+  socket.on('broadcast', function (data) {
+    alert("Everyone can see this.");
+  });
+
+  socket.on('unicast', function (data) {
+    alert("Only 1 person can see this.");
+  });
+</script>
