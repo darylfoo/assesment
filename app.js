@@ -4,12 +4,12 @@ const http = require('http');
 const app = express();
 const router = express.Router();
 const bodyParser = require("body-parser");
-const scrape = require("D:/home/site/form/scrape.js");
-const data = require("D:/home/site/form/get_all_data.js");
-const id = require("D:/home/site/form/get_by_id.js");
-const page = require("D:/home/site/form/get_by_page.js");
-const popular = require("D:/home/site/form/get_by_popular.js");
-const create = require("D:/home/site/form/create_meme.js");
+const scrape = require("./form/scrape.js");
+const data = require("./form/get_all_data.js");
+const id = require("./form/get_by_id.js");
+const page = require("./form/get_by_page.js");
+const popular = require("./form/get_by_popular.js");
+const create = require("./form/create_meme.js");
 //Declarations
 
 //Set Route
